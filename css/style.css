@@ -163,6 +163,26 @@ z-index: 3;
 color: white;
 font-size: 30px;
 }
+
+@media only screen and (max-width: 1070px) {
+ 
+.home {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.open-aside
+{
+height: fit-content;
+top: 25%;
+left: 20px;
+z-index: 3;
+color: white;
+font-size: 30px;
+}
+
+}
 .open-aside:hover
 {
     color: greenyellow;
